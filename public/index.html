@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartas Charca — El Valle Hundido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo-wrap">
+        <span class="logo-drop">🐸</span>
+        <div>
+          <h1 class="logo-title">Cartas Charca</h1>
+          <p class="logo-sub">El Valle Hundido</p>
+        </div>
+      </div>
+      <div class="header-stats" id="header-stats"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="filters-bar">
+      <div class="filter-group">
+        <span class="filter-label">Tipo</span>
+        <div class="filter-pills" id="filter-tipo">
+          <button class="pill active" data-filter="tipo" data-value="all">Todos</button>
+          <button class="pill" data-filter="tipo" data-value="Personaje">⚔️ Personaje</button>
+          <button class="pill" data-filter="tipo" data-value="Objeto">🎒 Objeto</button>
+          <button class="pill" data-filter="tipo" data-value="Efecto">✨ Efecto</button>
+          <button class="pill" data-filter="tipo" data-value="Lugar">🏛️ Lugar</button>
+          <button class="pill" data-filter="tipo" data-value="Especial">⭐ Especial</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Elemento</span>
+        <div class="filter-pills" id="filter-elemento">
+          <button class="pill active" data-filter="elemento" data-value="all">Todos</button>
+          <button class="pill elem-tierra" data-filter="elemento" data-value="Tierra">🌿 Tierra</button>
+          <button class="pill elem-agua" data-filter="elemento" data-value="Agua">💧 Agua</button>
+          <button class="pill elem-fuego" data-filter="elemento" data-value="Fuego">🔥 Fuego</button>
+          <button class="pill elem-aire" data-filter="elemento" data-value="Aire">💨 Aire</button>
+          <button class="pill elem-mistico" data-filter="elemento" data-value="Místico">🌑 Místico</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <input class="search-input" id="search" type="text" placeholder="Buscar carta..." />
+      </div>
+    </section>
+
+    <div class="results-info" id="results-info"></div>
+
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-inner" id="modal-inner"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
