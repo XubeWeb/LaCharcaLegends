@@ -1,4 +1,6 @@
-const FIGMA_FILE = 'qKQ2XYf2Ije482td6ximdz';
+// URL del reverso de las cartas (imagen compartida para todas)
+const REVERSO_URL = 'https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665068/CH-OBJ-001_kggfx6';
+// Nota: sustituye REVERSO_URL por la URL real del reverso cuando la tengas
 
 const ELEM_ICON = {
   Tierra: '🌿', Agua: '💧', Fuego: '🔥', Aire: '💨',
@@ -6,6 +8,8 @@ const ELEM_ICON = {
 };
 
 function getImgUrl(carta) {
+  // Prioridad: Cloudinary URL > carpeta imgs local
+  if (carta.cloudinary_url) return carta.cloudinary_url;
   return `imgs/${carta.codigo}.png`;
 }
 
@@ -61,6 +65,72 @@ function getElemLabel(carta) {
   return carta.tipo;
 }
 
+// ─── Card flip ────────────────────────────────────────────────────
+function buildFlipCard(carta, index) {
+  const flipper = document.createElement('div');
+  flipper.className = 'card-flipper';
+  flipper.style.animationDelay = `${Math.min(index * 0.03, 0.5)}s`;
+  flipper.dataset.elem = carta.elemento || carta.tipo;
+
+  // ── Cara delantera ──
+  const front = document.createElement('div');
+  front.className = 'card-face card-front';
+
+  const elemLabel = getElemLabel(carta);
+
+  front.appendChild(getImgEl(carta));
+
+  const body = document.createElement('div');
+  body.className = 'card-body';
+  body.innerHTML = `
+    <div class="card-tipo">${ELEM_ICON[elemLabel] || ''} ${carta.tipo}${elemLabel !== carta.tipo ? ' · ' + elemLabel : ''}</div>
+    <div class="card-nombre">${carta.nombre}</div>
+    <div class="card-desc">${carta.descripcion || '—'}</div>
+    ${carta.ps != null ? `
+    <div class="card-stats">
+      <div class="stat-badge">❤️ <span class="s-val">${carta.ps}</span></div>
+      ${carta.ad != null ? `<div class="stat-badge">⚔️ <span class="s-val">${carta.ad}</span></div>` : ''}
+    </div>` : ''}
+  `;
+  front.appendChild(body);
+
+  // ── Cara trasera (reverso) ──
+  const back = document.createElement('div');
+  back.className = 'card-face card-back';
+
+  const backImg = document.createElement('img');
+  backImg.src = REVERSO_URL;
+  backImg.alt = 'Reverso';
+  backImg.loading = 'lazy';
+  backImg.onerror = function() {
+    this.style.display = 'none';
+    const ph = document.createElement('div');
+    ph.className = 'card-back-placeholder';
+    ph.innerHTML = '<span>🐸</span><span>Cartas Charca</span>';
+    back.appendChild(ph);
+  };
+  back.appendChild(backImg);
+
+  flipper.appendChild(front);
+  flipper.appendChild(back);
+
+  // Click en el icono de flip (sin abrir modal)
+  const flipBtn = document.createElement('button');
+  flipBtn.className = 'flip-btn';
+  flipBtn.title = 'Girar carta';
+  flipBtn.innerHTML = '↻';
+  flipBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    flipper.classList.toggle('flipped');
+  });
+  flipper.appendChild(flipBtn);
+
+  // Click en la carta (cara delantera) → abre modal
+  front.addEventListener('click', () => openModal(carta));
+
+  return flipper;
+}
+
 function renderGrid() {
   const grid = document.getElementById('grid');
   const filtered = filterCartas();
@@ -78,30 +148,7 @@ function renderGrid() {
   }
 
   filtered.forEach((carta, i) => {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.dataset.elem = carta.elemento || carta.tipo;
-    card.style.animationDelay = `${Math.min(i * 0.03, 0.5)}s`;
-
-    const elemLabel = getElemLabel(carta);
-
-    card.appendChild(getImgEl(carta));
-
-    const body = document.createElement('div');
-    body.className = 'card-body';
-    body.innerHTML = `
-      <div class="card-tipo">${ELEM_ICON[elemLabel] || ''} ${carta.tipo}${elemLabel !== carta.tipo ? ' · ' + elemLabel : ''}</div>
-      <div class="card-nombre">${carta.nombre}</div>
-      <div class="card-desc">${carta.descripcion || '—'}</div>
-      ${carta.ps != null ? `
-      <div class="card-stats">
-        <div class="stat-badge">❤️ <span class="s-val">${carta.ps}</span></div>
-        ${carta.ad != null ? `<div class="stat-badge">⚔️ <span class="s-val">${carta.ad}</span></div>` : ''}
-      </div>` : ''}
-    `;
-    card.appendChild(body);
-    card.addEventListener('click', () => openModal(carta));
-    grid.appendChild(card);
+    grid.appendChild(buildFlipCard(carta, i));
   });
 }
 
