@@ -1,6 +1,4 @@
-// URL del reverso de las cartas (imagen compartida para todas)
-const REVERSO_URL = 'https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665068/CH-OBJ-001_kggfx6';
-// Nota: sustituye REVERSO_URL por la URL real del reverso cuando la tengas
+const REVERSO_URL = 'https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669883/REVERSO_cd5ul3';
 
 const ELEM_ICON = {
   Tierra: '🌿', Agua: '💧', Fuego: '🔥', Aire: '💨',
@@ -8,7 +6,6 @@ const ELEM_ICON = {
 };
 
 function getImgUrl(carta) {
-  // Prioridad: Cloudinary URL > carpeta imgs local
   if (carta.cloudinary_url) return carta.cloudinary_url;
   return `imgs/${carta.codigo}.png`;
 }
@@ -67,17 +64,21 @@ function getElemLabel(carta) {
 
 // ─── Card flip ────────────────────────────────────────────────────
 function buildFlipCard(carta, index) {
-  const flipper = document.createElement('div');
-  flipper.className = 'card-flipper';
-  flipper.style.animationDelay = `${Math.min(index * 0.03, 0.5)}s`;
-  flipper.dataset.elem = carta.elemento || carta.tipo;
+  // Outer wrapper: sets perspective and handles stacking context
+  const wrapper = document.createElement('div');
+  wrapper.className = 'card-wrapper';
+  wrapper.style.animationDelay = `${Math.min(index * 0.03, 0.5)}s`;
+  wrapper.dataset.elem = carta.elemento || carta.tipo;
+
+  // The scene that flips
+  const scene = document.createElement('div');
+  scene.className = 'card-scene';
 
   // ── Cara delantera ──
   const front = document.createElement('div');
   front.className = 'card-face card-front';
 
   const elemLabel = getElemLabel(carta);
-
   front.appendChild(getImgEl(carta));
 
   const body = document.createElement('div');
@@ -93,6 +94,7 @@ function buildFlipCard(carta, index) {
     </div>` : ''}
   `;
   front.appendChild(body);
+  front.addEventListener('click', () => openModal(carta));
 
   // ── Cara trasera (reverso) ──
   const back = document.createElement('div');
@@ -102,33 +104,24 @@ function buildFlipCard(carta, index) {
   backImg.src = REVERSO_URL;
   backImg.alt = 'Reverso';
   backImg.loading = 'lazy';
-  backImg.onerror = function() {
-    this.style.display = 'none';
-    const ph = document.createElement('div');
-    ph.className = 'card-back-placeholder';
-    ph.innerHTML = '<span>🐸</span><span>Cartas Charca</span>';
-    back.appendChild(ph);
-  };
   back.appendChild(backImg);
 
-  flipper.appendChild(front);
-  flipper.appendChild(back);
+  scene.appendChild(front);
+  scene.appendChild(back);
+  wrapper.appendChild(scene);
 
-  // Click en el icono de flip (sin abrir modal)
+  // Botón de flip
   const flipBtn = document.createElement('button');
   flipBtn.className = 'flip-btn';
   flipBtn.title = 'Girar carta';
   flipBtn.innerHTML = '↻';
   flipBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    flipper.classList.toggle('flipped');
+    wrapper.classList.toggle('flipped');
   });
-  flipper.appendChild(flipBtn);
+  wrapper.appendChild(flipBtn);
 
-  // Click en la carta (cara delantera) → abre modal
-  front.addEventListener('click', () => openModal(carta));
-
-  return flipper;
+  return wrapper;
 }
 
 function renderGrid() {
@@ -227,7 +220,6 @@ async function init() {
 
   renderGrid();
 
-  // Filtros
   document.querySelectorAll('.pill').forEach(btn => {
     btn.addEventListener('click', () => {
       const filter = btn.dataset.filter;

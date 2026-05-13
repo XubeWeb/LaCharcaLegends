@@ -13,7 +13,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:332",
     "figma_node_id_url": "1-332",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665068/CH-OBJ-001_kggfx6"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669895/CH-OBJ-001_ycb0v7"
   },
   {
     "codigo": "CH-PER-001",
@@ -28,7 +28,8 @@
     "hab2_nombre": "Sonrisa Inquebrantable",
     "hab2_desc": "Restaura 60 Ps a un aliado",
     "figma_node_id": "1:333",
-    "figma_node_id_url": "1-333"
+    "figma_node_id_url": "1-333",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669900/CH-PER-001_aakjkn"
   },
   {
     "codigo": "CH-PER-002",
@@ -43,7 +44,8 @@
     "hab2_nombre": "Todos son bienvenidos",
     "hab2_desc": "Invita a quien le de la gana que para eso es su casa. Saca la primera carta de personaje del mazo al campo. (puede exceder un espacio el límite de cartas en +1)",
     "figma_node_id": "1:334",
-    "figma_node_id_url": "1-334"
+    "figma_node_id_url": "1-334",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669898/CH-PER-002_sow6g3"
   },
   {
     "codigo": "CH-PER-003",
@@ -58,7 +60,8 @@
     "hab2_nombre": "Canon perruno",
     "hab2_desc": "Toca una melodía con su piano que aumenta su poder +10 (+20 si bimba está en cualquier lado del campo de batalla). (No acumulable)",
     "figma_node_id": "1:335",
-    "figma_node_id_url": "1-335"
+    "figma_node_id_url": "1-335",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669899/CH-PER-003_d2kvoa"
   },
   {
     "codigo": "CH-PER-004",
@@ -73,7 +76,8 @@
     "hab2_nombre": "LNAI-Jon",
     "hab2_desc": "Se une a AI-Jon y obtiene +100Ps y +50 de Ataque",
     "figma_node_id": "1:336",
-    "figma_node_id_url": "1-336"
+    "figma_node_id_url": "1-336",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669900/CH-PER-004_coxjtm"
   },
   {
     "codigo": "CH-PER-005",
@@ -88,7 +92,8 @@
     "hab2_nombre": "LNAI-Jon",
     "hab2_desc": "Se une a Elena y obtiene +100Ps y +50 de Ataque.",
     "figma_node_id": "1:338",
-    "figma_node_id_url": "1-338"
+    "figma_node_id_url": "1-338",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669904/CH-PER-005_gfcu7m"
   },
   {
     "codigo": "CH-PER-006",
@@ -103,7 +108,8 @@
     "hab2_nombre": "Esperanza Macarena",
     "hab2_desc": "un \"¡MACARENA GUAPA!\" ensordecedor stunea a dos enemigos por un turno. Esperanza de Triana: Estáis bajo una petalá masiva en la calle Pureza. Cristian y un aliado recuperan la vida que hayan perdido este turno.",
     "figma_node_id": "1:339",
-    "figma_node_id_url": "1-339"
+    "figma_node_id_url": "1-339",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669899/CH-PER-006_z3rg9c"
   },
   {
     "codigo": "CH-PER-007",
@@ -118,7 +124,8 @@
     "hab2_nombre": "Gestante",
     "hab2_desc": "Empieza su embarazo, en TRES turnos, busca el próximo personaje del mazo y lo coloca en el campo de batalla. (puede superar el máximo de personajes con esta habilidad)",
     "figma_node_id": "1:340",
-    "figma_node_id_url": "1-340"
+    "figma_node_id_url": "1-340",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669900/CH-PER-007_s51lex"
   },
   {
     "codigo": "CH-PER-008",
@@ -133,7 +140,8 @@
     "hab2_nombre": "Turbina de cola",
     "hab2_desc": "Mueve su cola de felicidad arramblando todo a su paso. Caótico pero poco letal. Cada personaje enemigo pierde 1 Ps.",
     "figma_node_id": "1:341",
-    "figma_node_id_url": "1-341"
+    "figma_node_id_url": "1-341",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669901/CH-PER-008_uxsrza"
   },
   {
     "codigo": "CH-PER-009",
@@ -148,7 +156,8 @@
     "hab2_nombre": "Visita sorpresa",
     "hab2_desc": "Frano se va de visita a Sevilla y a la vuelta te trae las 2 próximas cartas de tu mazo. (Pero pierdes tu silla por este turno)",
     "figma_node_id": "1:342",
-    "figma_node_id_url": "1-342"
+    "figma_node_id_url": "1-342",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669901/CH-PER-009_ae5zwx"
   },
   {
     "codigo": "CH-PER-010",
@@ -163,7 +172,8 @@
     "hab2_nombre": "Rumba ambulante",
     "hab2_desc": "Invoca un cajón y comienza a tocarlo sin parar, infligiendo -5 de daño cada turno hasta que esta carta sea eliminada.",
     "figma_node_id": "1:343",
-    "figma_node_id_url": "1-343"
+    "figma_node_id_url": "1-343",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669901/CH-PER-010_eebfap"
   },
   {
     "codigo": "CH-PER-011",
@@ -178,7 +188,8 @@
     "hab2_nombre": "",
     "hab2_desc": "60",
     "figma_node_id": "1:344",
-    "figma_node_id_url": "1-344"
+    "figma_node_id_url": "1-344",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669902/CH-PER-011_o4zso8"
   },
   {
     "codigo": "CH-PER-012",
@@ -193,7 +204,8 @@
     "hab2_nombre": "",
     "hab2_desc": "20",
     "figma_node_id": "1:345",
-    "figma_node_id_url": "1-345"
+    "figma_node_id_url": "1-345",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669901/CH-PER-012_zkul7l"
   },
   {
     "codigo": "CH-PER-013",
@@ -208,7 +220,8 @@
     "hab2_nombre": "N.E.F.R.O. (Nodo Estabilizador de Fuerza y Reparación Orgánica)",
     "hab2_desc": "obtiene un escudo de 50 Ps y 20 Ad que dura los dos próximos turnos.",
     "figma_node_id": "1:346",
-    "figma_node_id_url": "1-346"
+    "figma_node_id_url": "1-346",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669902/CH-PER-013_w82w69"
   },
   {
     "codigo": "CH-PER-014",
@@ -223,7 +236,8 @@
     "hab2_nombre": "C.I.S.T.O. (Componente Inercial de Suspensión Táctica Optimizada)",
     "hab2_desc": "Se eleva evitando ataques básicos y desciende inflingiendo 50Ps dentro de un turno a un personaje enemigo.",
     "figma_node_id": "1:347",
-    "figma_node_id_url": "1-347"
+    "figma_node_id_url": "1-347",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669903/CH-PER-014_q4wpeg"
   },
   {
     "codigo": "CH-PER-015",
@@ -238,7 +252,8 @@
     "hab2_nombre": "These gays are trying to murder me",
     "hab2_desc": "se pone a disparar a diestro y siniestro, infligiendo -15 de daño directo al jugador enemigo pero autoinflingiendo -5 de daño directo.",
     "figma_node_id": "1:348",
-    "figma_node_id_url": "1-348"
+    "figma_node_id_url": "1-348",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669903/CH-PER-015_lutjmn"
   },
   {
     "codigo": "CH-PER-016",
@@ -253,7 +268,8 @@
     "hab2_nombre": "Ser Penca",
     "hab2_desc": "Dios, qué fastidio, está tan confuso que se tropieza e hiere 20 PS a cada enemigo.",
     "figma_node_id": "1:349",
-    "figma_node_id_url": "1-349"
+    "figma_node_id_url": "1-349",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669904/CH-PER-016_krrgax"
   },
   {
     "codigo": "CH-PER-017",
@@ -268,7 +284,8 @@
     "hab2_nombre": "Fuga en la planta",
     "hab2_desc": "Cae Coca-Cola en todo el campo enemigo y cada personaje debe usar 1 de energía para salir (sólo pueden atacar con básicos hasta que lo hacen).",
     "figma_node_id": "1:350",
-    "figma_node_id_url": "1-350"
+    "figma_node_id_url": "1-350",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669903/CH-PER-017_ckc2na"
   },
   {
     "codigo": "CH-PER-018",
@@ -283,7 +300,8 @@
     "hab2_nombre": "Luz solar",
     "hab2_desc": "Tras cargar durante un turno elige a un personaje aliado para sanarlo completamente. Puedes usar esta habilidad para curar +20 PS de vida perdida de jugador. (gasta energía solamente al lanzarlo pero el turno de curar no puede realizar otra habilidad)",
     "figma_node_id": "1:351",
-    "figma_node_id_url": "1-351"
+    "figma_node_id_url": "1-351",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669903/CH-PER-018_ans5ex"
   },
   {
     "codigo": "CH-PER-019",
@@ -298,7 +316,8 @@
     "hab2_nombre": "Doble Bofetón",
     "hab2_desc": "Abofetea dos veces a un personaje (aliado o enemigo), en la primera le cambia su elemento al siguiente en la cadena de ventaja elemental. y en la segunda le cura/hiere 30 PS. Ventaja elemental: Tierra > Agua > Fuego > Aire > Tierra",
     "figma_node_id": "1:352",
-    "figma_node_id_url": "1-352"
+    "figma_node_id_url": "1-352",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669904/CH-PER-019_ec2ur5"
   },
   {
     "codigo": "CH-PER-020",
@@ -313,7 +332,8 @@
     "hab2_nombre": "Preparáos para la batalla",
     "hab2_desc": "Genera un arsenal de armas para su equipo, haciendo que aumente el ataque de todos los personajes +30 AD. (No acumulable)",
     "figma_node_id": "1:353",
-    "figma_node_id_url": "1-353"
+    "figma_node_id_url": "1-353",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669903/CH-PER-020_uetttm"
   },
   {
     "codigo": "CH-PER-021",
@@ -328,7 +348,8 @@
     "hab2_nombre": "Pasaba por aquí",
     "hab2_desc": "Puede entrar en juego en cualquier momento, ampliando el máximo de cartas en el campo si fuera necesario. (Con el coste de energía).",
     "figma_node_id": "1:354",
-    "figma_node_id_url": "1-354"
+    "figma_node_id_url": "1-354",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669905/CH-PER-021_tpntpb"
   },
   {
     "codigo": "CH-PER-022",
@@ -343,7 +364,8 @@
     "hab2_nombre": "Firmado yo",
     "hab2_desc": "reparte autógrafos y cartas emotivas entre sus fans, El cariño que su público le profesa hace que los enemigos no quieran atacar, bajando su ataque -20 AD. (No acumulable)",
     "figma_node_id": "1:355",
-    "figma_node_id_url": "1-355"
+    "figma_node_id_url": "1-355",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669905/CH-PER-022_gd985f"
   },
   {
     "codigo": "CH-PER-023",
@@ -358,7 +380,8 @@
     "hab2_nombre": "Triquiñuela",
     "hab2_desc": "Coges las cartas de tu contrincante de su mano y las colocas dentro del mazo, pero tus ansias de control te pasan factura y a cambio recibes 10 de daño directo por cada carta que reubiques. (hasta 3 cartas por turno)",
     "figma_node_id": "1:356",
-    "figma_node_id_url": "1-356"
+    "figma_node_id_url": "1-356",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669905/CH-PER-023_cjxtyp"
   },
   {
     "codigo": "CH-PER-024",
@@ -373,7 +396,8 @@
     "hab2_nombre": "De cuatro",
     "hab2_desc": "organiza una sevillana cuadruple que hace que todos se mezclen, elige hasta 2 enemigos y 2 aliados para que bailen sevillanas, tus aliados que saben como hacerlo se curarán 20 PS pero los enemigos, que no tienen ni idea, perderán 20 PS",
     "figma_node_id": "1:357",
-    "figma_node_id_url": "1-357"
+    "figma_node_id_url": "1-357",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669906/CH-PER-024_m1z1qk"
   },
   {
     "codigo": "CH-PER-025",
@@ -388,7 +412,8 @@
     "hab2_nombre": "Se mandar dançar, tu dança",
     "hab2_desc": "Convierte a todo su equipo a elemento “fuego” y les aumenta+ 10 AD durante dos turnos, además les cura 10 PS.",
     "figma_node_id": "1:358",
-    "figma_node_id_url": "1-358"
+    "figma_node_id_url": "1-358",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669906/CH-PER-025_unsl0e"
   },
   {
     "codigo": "CH-PER-026",
@@ -403,7 +428,8 @@
     "hab2_nombre": "Retinol al 0,3%",
     "hab2_desc": "Una buena skin routine rejuvenece a tu equipo y les cura 20 ps a cada uno.",
     "figma_node_id": "1:359",
-    "figma_node_id_url": "1-359"
+    "figma_node_id_url": "1-359",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669905/CH-PER-026_hadmyi"
   },
   {
     "codigo": "CH-PER-027",
@@ -418,7 +444,8 @@
     "hab2_nombre": "Earthbender",
     "hab2_desc": "Construye un refugio de 2x2 que le protege del siguiente ataque básico o habilidad.",
     "figma_node_id": "1:360",
-    "figma_node_id_url": "1-360"
+    "figma_node_id_url": "1-360",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669907/CH-PER-027_esllpa"
   },
   {
     "codigo": "CH-LUG-001",
@@ -434,7 +461,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:361",
     "figma_node_id_url": "1-361",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665064/CH-LUG-001_smle17"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669911/CH-LUG-001_xpbb4c"
   },
   {
     "codigo": "CH-LUG-002",
@@ -450,7 +477,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:362",
     "figma_node_id_url": "1-362",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665072/CH-LUG-002_qcy2hv"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669894/CH-LUG-002_amyaha"
   },
   {
     "codigo": "CH-LUG-003",
@@ -466,7 +493,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:363",
     "figma_node_id_url": "1-363",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665076/CH-LUG-003_fi3zqo"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669895/CH-LUG-003_a7x3wi"
   },
   {
     "codigo": "CH-LUG-004",
@@ -482,7 +509,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:364",
     "figma_node_id_url": "1-364",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665079/CH-LUG-004_goybqr"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669887/CH-LUG-004_auar0k"
   },
   {
     "codigo": "CH-LUG-005",
@@ -498,7 +525,7 @@
     "hab2_desc": "Busca en tu mazo el primer personaje del mismo elemento que alguno de los que tienes en la mesa y úsalo. (Puede superar +1 los personajes activos)",
     "figma_node_id": "1:365",
     "figma_node_id_url": "1-365",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665076/CH-LUG-005_xeo5vc"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669890/CH-LUG-005_dtwvdt"
   },
   {
     "codigo": "CH-LUG-006",
@@ -514,7 +541,7 @@
     "hab2_desc": "Un escape de fluidos hace que un personaje enemigo deba gastar 1 de energía para limpiarlo en el próximo turno (sólo pueden atacar con básicos si lo hacen).",
     "figma_node_id": "1:367",
     "figma_node_id_url": "1-367",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665071/CH-LUG-006_xfji9k"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669892/CH-LUG-006_d6rb86"
   },
   {
     "codigo": "CH-LUG-007",
@@ -530,7 +557,7 @@
     "hab2_desc": "Suena la canción y te cogen de la mano para que bailes, busca la carta \"Sevillanas\" en el mazo y úsala.",
     "figma_node_id": "1:369",
     "figma_node_id_url": "1-369",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665080/CH-LUG-007_yitfq5"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669899/CH-LUG-007_wgzpgx"
   },
   {
     "codigo": "CH-LUG-008",
@@ -546,7 +573,7 @@
     "hab2_desc": "Suena la canción y te cogen de la mano para que bailes, busca la carta \"Sevillanas\" en el mazo y úsala.",
     "figma_node_id": "1:370",
     "figma_node_id_url": "1-370",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665081/CH-LUG-008_iormkd"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669890/CH-LUG-008_cnr1l8"
   },
   {
     "codigo": "CH-LUG-009",
@@ -562,7 +589,7 @@
     "hab2_desc": "Eliges hasta 2 de tus personajes y cambias su elemento al que es neutral contra él.",
     "figma_node_id": "1:371",
     "figma_node_id_url": "1-371",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665070/CH-LUG-009_rsgnxj"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669890/CH-LUG-009_nsnvcn"
   },
   {
     "codigo": "CH-LUG-010",
@@ -578,7 +605,7 @@
     "hab2_desc": "Las donaciones de los señores proveen a tu equipo de alimento para pasar el frio invierno, curando la salud de todos tus personajes +10 PS.",
     "figma_node_id": "1:372",
     "figma_node_id_url": "1-372",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665069/CH-LUG-010_xla9ah"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669897/CH-LUG-010_alcya4"
   },
   {
     "codigo": "CH-LUG-011",
@@ -594,7 +621,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:374",
     "figma_node_id_url": "1-374",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665079/CH-LUG-011_noncnj"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669892/CH-LUG-011_eem6zr"
   },
   {
     "codigo": "CH-LUG-012",
@@ -609,7 +636,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:375",
-    "figma_node_id_url": "1-375"
+    "figma_node_id_url": "1-375",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669897/CH-LUG-012_hevgex"
   },
   {
     "codigo": "CH-LUG-013",
@@ -624,7 +652,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:376",
-    "figma_node_id_url": "1-376"
+    "figma_node_id_url": "1-376",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669896/CH-LUG-013_g6v6es"
   },
   {
     "codigo": "CH-LUG-014",
@@ -640,7 +669,7 @@
     "hab2_desc": "Busca la carta Mr Saturday de tu mazo y úsala.",
     "figma_node_id": "1:377",
     "figma_node_id_url": "1-377",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665073/CH-LUG-014_hhsawy"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669893/CH-LUG-014_rl7cdh"
   },
   {
     "codigo": "CH-EFE-001",
@@ -670,7 +699,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:382",
-    "figma_node_id_url": "1-382"
+    "figma_node_id_url": "1-382",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669893/CH-LUG-015_kvoiyt"
   },
   {
     "codigo": "CH-EFE-002",
@@ -686,7 +716,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:383",
     "figma_node_id_url": "1-383",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665061/CH-EFE-002_do5dv9"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669884/CH-EFE-002_sucani"
   },
   {
     "codigo": "CH-EFE-003",
@@ -702,7 +732,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:384",
     "figma_node_id_url": "1-384",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665060/CH-EFE-003_ryti4a"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669907/CH-EFE-003_cyfqxu"
   },
   {
     "codigo": "CH-EFE-004",
@@ -718,7 +748,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:385",
     "figma_node_id_url": "1-385",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665060/CH-EFE-004_bqeqqg"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669908/CH-EFE-004_atqhgv"
   },
   {
     "codigo": "CH-EFE-005",
@@ -734,7 +764,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:386",
     "figma_node_id_url": "1-386",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665060/CH-EFE-005_ojj4sf"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669884/CH-EFE-005_vplmz0"
   },
   {
     "codigo": "CH-EFE-006",
@@ -750,7 +780,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:387",
     "figma_node_id_url": "1-387",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665067/CH-EFE-006_hwwdoh"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669909/CH-EFE-006_id4uok"
   },
   {
     "codigo": "CH-EFE-007",
@@ -766,7 +796,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:388",
     "figma_node_id_url": "1-388",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665066/CH-EFE-007_f1nsqp"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669909/CH-EFE-007_yidqbv"
   },
   {
     "codigo": "CH-EFE-008",
@@ -782,7 +812,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:389",
     "figma_node_id_url": "1-389",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665061/CH-EFE-008_psk2la"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669886/CH-EFE-008_oisiz8"
   },
   {
     "codigo": "CH-EFE-009",
@@ -798,7 +828,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:390",
     "figma_node_id_url": "1-390",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665060/CH-EFE-009_cwmrod"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669909/CH-EFE-009_gyl6c2"
   },
   {
     "codigo": "CH-EFE-010",
@@ -814,7 +844,7 @@
     "hab2_desc": "Puedes usar esta carta para evolucionar \"Jorge\" a \"La Giorgia\" y cambiar así su elemento a \"Agua\".",
     "figma_node_id": "1:391",
     "figma_node_id_url": "1-391",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665065/CH-EFE-010_ohyukn"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669910/CH-EFE-010_oxuv1k"
   },
   {
     "codigo": "CH-EFE-011",
@@ -830,7 +860,7 @@
     "hab2_desc": "Puedes usar esta carta para evolucionar \"Jorge\" a \"La Giorgia\" y cambiar así su elemento a \"Agua\".",
     "figma_node_id": "1:392",
     "figma_node_id_url": "1-392",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665064/CH-EFE-011_gs6dt6"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669910/CH-EFE-011_hwo3kz"
   },
   {
     "codigo": "CH-EFE-012",
@@ -846,7 +876,7 @@
     "hab2_desc": "Puedes usar esta carta para evolucionar \"Jorge\" a \"La Giorgia\" y cambiar así su elemento a \"Agua\".",
     "figma_node_id": "1:393",
     "figma_node_id_url": "1-393",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665061/CH-EFE-012_wydwbe"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669911/CH-EFE-012_o0yggu"
   },
   {
     "codigo": "CH-EFE-013",
@@ -862,7 +892,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:394",
     "figma_node_id_url": "1-394",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665064/CH-EFE-013_hhqnvi"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669911/CH-EFE-013_r9xl42"
   },
   {
     "codigo": "CH-EFE-014",
@@ -878,7 +908,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:395",
     "figma_node_id_url": "1-395",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665062/CH-EFE-014_rmxnxd"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669884/CH-EFE-014_mccew0"
   },
   {
     "codigo": "CH-EFE-015",
@@ -894,7 +924,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:396",
     "figma_node_id_url": "1-396",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665063/CH-EFE-015_hnfbbm"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669893/CH-EFE-015_tazzqq"
   },
   {
     "codigo": "CH-EFE-016",
@@ -910,7 +940,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:397",
     "figma_node_id_url": "1-397",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665066/CH-EFE-016_jbhhp8"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669888/CH-EFE-016_thjy26"
   },
   {
     "codigo": "CH-EFE-017",
@@ -926,7 +956,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:398",
     "figma_node_id_url": "1-398",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665068/CH-EFE-017_mrtixn"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669889/CH-EFE-017_lkbakl"
   },
   {
     "codigo": "CH-EFE-018",
@@ -942,7 +972,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:399",
     "figma_node_id_url": "1-399",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665067/CH-EFE-018_iz7u0n"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669889/CH-EFE-018_ewfd3l"
   },
   {
     "codigo": "CH-EFE-019",
@@ -958,7 +988,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:400",
     "figma_node_id_url": "1-400",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665063/CH-EFE-019_xdb4zx"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669885/CH-EFE-019_ih92st"
   },
   {
     "codigo": "CH-OBJ-002",
@@ -974,7 +1004,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:401",
     "figma_node_id_url": "1-401",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665073/CH-OBJ-002_ulcpw3"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669884/CH-OBJ-002_qyef8f"
   },
   {
     "codigo": "CH-OBJ-003",
@@ -990,7 +1020,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:402",
     "figma_node_id_url": "1-402",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665072/CH-OBJ-003_qikuta"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669887/CH-OBJ-003_qvjupw"
   },
   {
     "codigo": "CH-OBJ-004",
@@ -1005,7 +1035,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:403",
-    "figma_node_id_url": "1-403"
+    "figma_node_id_url": "1-403",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669896/CH-OBJ-004_u9bhh4"
   },
   {
     "codigo": "CH-OBJ-005",
@@ -1021,7 +1052,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:404",
     "figma_node_id_url": "1-404",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665075/CH-OBJ-005_jseshe"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669889/CH-OBJ-005_frmusi"
   },
   {
     "codigo": "CH-OBJ-006",
@@ -1037,7 +1068,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:405",
     "figma_node_id_url": "1-405",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665075/CH-OBJ-006_jk5dfu"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669893/CH-OBJ-006_mfu8nx"
   },
   {
     "codigo": "CH-OBJ-007",
@@ -1053,7 +1084,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:406",
     "figma_node_id_url": "1-406",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665069/CH-OBJ-007_gsf90u"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669887/CH-OBJ-007_db1ibp"
   },
   {
     "codigo": "CH-OBJ-008",
@@ -1069,7 +1100,7 @@
     "hab2_desc": "Cambias el tipo de un personaje al de un personaje del enemigo de tu elección.",
     "figma_node_id": "1:407",
     "figma_node_id_url": "1-407",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665081/CH-OBJ-008_oerjcw"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669898/CH-OBJ-008_nt4af0"
   },
   {
     "codigo": "CH-OBJ-009",
@@ -1084,7 +1115,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:408",
-    "figma_node_id_url": "1-408"
+    "figma_node_id_url": "1-408",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669894/CH-OBJ-009_moysvf"
   },
   {
     "codigo": "CH-OBJ-010",
@@ -1100,7 +1132,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:409",
     "figma_node_id_url": "1-409",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665077/CH-OBJ-010_x3d2e1"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669891/CH-OBJ-010_mty340"
   },
   {
     "codigo": "CH-OBJ-011",
@@ -1116,7 +1148,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:410",
     "figma_node_id_url": "1-410",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665077/CH-OBJ-011_emylnr"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669893/CH-OBJ-011_qd6est"
   },
   {
     "codigo": "CH-OBJ-012",
@@ -1132,7 +1164,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:411",
     "figma_node_id_url": "1-411",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665065/CH-OBJ-012_km5h7s"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669892/CH-OBJ-012_ko9ck4"
   },
   {
     "codigo": "CH-OBJ-013",
@@ -1148,7 +1180,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:412",
     "figma_node_id_url": "1-412",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665071/CH-OBJ-013_scwj4i"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669884/CH-OBJ-013_qocid3"
   },
   {
     "codigo": "CH-OBJ-014",
@@ -1164,7 +1196,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:413",
     "figma_node_id_url": "1-413",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665074/CH-OBJ-014_lkrsmy"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669891/CH-OBJ-014_wqtawk"
   },
   {
     "codigo": "CH-OBJ-015",
@@ -1180,7 +1212,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:414",
     "figma_node_id_url": "1-414",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665076/CH-OBJ-015_lyyekn"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669886/CH-OBJ-015_engrxd"
   },
   {
     "codigo": "CH-OBJ-016",
@@ -1196,7 +1228,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:415",
     "figma_node_id_url": "1-415",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665082/CH-OBJ-016_heuypl"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669888/CH-OBJ-016_zgm2ll"
   },
   {
     "codigo": "CH-OBJ-017",
@@ -1212,7 +1244,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:416",
     "figma_node_id_url": "1-416",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665078/CH-OBJ-017_xqa45j"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669896/CH-OBJ-017_gugrtz"
   },
   {
     "codigo": "CH-OBJ-018",
@@ -1227,7 +1259,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:417",
-    "figma_node_id_url": "1-417"
+    "figma_node_id_url": "1-417",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669898/CH-OBJ-018_z8nzxq"
   },
   {
     "codigo": "CH-OBJ-019",
@@ -1242,7 +1275,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:418",
-    "figma_node_id_url": "1-418"
+    "figma_node_id_url": "1-418",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669895/CH-OBJ-019_qnqb2g"
   },
   {
     "codigo": "CH-OBJ-020",
@@ -1257,7 +1291,8 @@
     "hab2_nombre": "",
     "hab2_desc": "",
     "figma_node_id": "1:419",
-    "figma_node_id_url": "1-419"
+    "figma_node_id_url": "1-419",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669896/CH-OBJ-020_wy5kl1"
   },
   {
     "codigo": "CH-OBJ-021",
@@ -1273,7 +1308,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:420",
     "figma_node_id_url": "1-420",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665082/CH-OBJ-021_jbu2it"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669894/CH-OBJ-021_p8x5ou"
   },
   {
     "codigo": "CH-PER-028",
@@ -1288,7 +1323,8 @@
     "hab2_nombre": "La mariliendre primitiva",
     "hab2_desc": "Aumenta +1 la energía de tu equipo de forma pasiva cada turno.",
     "figma_node_id": "1:421",
-    "figma_node_id_url": "1-421"
+    "figma_node_id_url": "1-421",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669906/CH-PER-028_k2wgmo"
   },
   {
     "codigo": "CH-PER-029",
@@ -1303,7 +1339,8 @@
     "hab2_nombre": "Postpuso la quedada hasta la eternidad",
     "hab2_desc": "Aumenta el daño de los campeones aliados +10.",
     "figma_node_id": "1:422",
-    "figma_node_id_url": "1-422"
+    "figma_node_id_url": "1-422",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669907/CH-PER-029_gvefcs"
   },
   {
     "codigo": "CH-PER-030",
@@ -1318,7 +1355,8 @@
     "hab2_nombre": "Sabías que...?",
     "hab2_desc": "Necesitas tres vidas para escuchar sus historias. Aumenta tu vida +20. (Solo usable una vez cada 3 turnos)",
     "figma_node_id": "1:423",
-    "figma_node_id_url": "1-423"
+    "figma_node_id_url": "1-423",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669907/CH-PER-030_gpfq8p"
   },
   {
     "codigo": "CH-ESP-001",
@@ -1334,7 +1372,7 @@
     "hab2_desc": "",
     "figma_node_id": "1:455",
     "figma_node_id_url": "1-455",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665074/CH-ESP-001_raeq3l"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669911/CH-ESP-001_fmybud"
   },
   {
     "codigo": "CH-PER-031",
@@ -1349,7 +1387,8 @@
     "hab2_nombre": "Creador de cartas",
     "hab2_desc": "Tiene el poder de invocar una carta instantánea dibujándola de memoria sobre una libreta o servilleta, el efecto será igual al de la carta real y puede guardarla en su mano para usarla cuando la necesite. (Máximo 3 cartas al mismo tiempo)",
     "figma_node_id": "1:456",
-    "figma_node_id_url": "1-456"
+    "figma_node_id_url": "1-456",
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669908/CH-PER-031_sbsyba"
   },
   {
     "codigo": "CH-PER-032",
@@ -1365,6 +1404,6 @@
     "hab2_desc": "Orquesta un ataque conjunto con todas las criaturas que ha coseguido capturar infligiendo -50 de daño. Sus criaturas anidan en la casilla atacada causando -5 Ps al campeón que se coloque en ella en los próximos dos turnos.",
     "figma_node_id": "1:457",
     "figma_node_id_url": "1-457",
-    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778665070/CH-PER-032_nj6jb5"
+    "cloudinary_url": "https://res.cloudinary.com/dylxuavy3/image/upload/f_auto,q_auto/v1778669909/CH-PER-032_qj3rk5"
   }
 ]
