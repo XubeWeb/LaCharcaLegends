@@ -1,77 +1,30 @@
-const FIGMA_TOKEN = window.FIGMA_TOKEN;
-const FIGMA_FILE  = 'qKQ2XYf2Ije482td6ximdz';
+const FIGMA_FILE = 'qKQ2XYf2Ije482td6ximdz';
 
 const ELEM_ICON = {
   Tierra: '🌿', Agua: '💧', Fuego: '🔥', Aire: '💨',
   Místico: '🌑', Objeto: '🎒', Lugar: '🏛️', Efecto: '✨', Especial: '⭐'
 };
 
-// Image cache: node_id -> url
-const imgCache = {};
-const imgRequests = {};
-
-async function fetchFigmaImages(nodeIds) {
-  const toFetch = nodeIds.filter(id => id && !imgCache[id] && !imgRequests[id]);
-  if (!toFetch.length) return;
-
-  const chunks = [];
-  for (let i = 0; i < toFetch.length; i += 50) chunks.push(toFetch.slice(i, i + 50));
-
-  for (const chunk of chunks) {
-    const ids = chunk.map(id => id.replace('-', ':')).join(',');
-    const promise = fetch(
-      `https://api.figma.com/v1/images/${FIGMA_FILE}?ids=${encodeURIComponent(ids)}&format=png&scale=2`,
-      { headers: { 'X-Figma-Token': FIGMA_TOKEN } }
-    )
-    .then(r => r.json())
-    .then(data => {
-      if (data.images) {
-        for (const [nodeId, url] of Object.entries(data.images)) {
-          const key = nodeId.replace(':', '-');
-          imgCache[key] = url;
-          delete imgRequests[key];
-          document.querySelectorAll(`[data-node="${key}"]`).forEach(el => {
-            if (url) {
-              el.src = url;
-              el.style.display = 'block';
-              el.parentElement.querySelector('.card-img-placeholder')?.remove();
-              el.parentElement.querySelector('.modal-img-placeholder')?.remove();
-            }
-          });
-        }
-      }
-    })
-    .catch(err => console.warn('Figma image fetch error:', err));
-
-    chunk.forEach(id => { imgRequests[id] = promise; });
-    await promise;
-  }
+function getImgUrl(carta) {
+  return `imgs/${carta.codigo}.png`;
 }
 
-function getImgEl(nodeId, isModal = false) {
+function getImgEl(carta, isModal = false) {
   const wrap = document.createElement('div');
   wrap.className = isModal ? 'modal-img-wrap' : 'card-img-wrap';
 
-  if (nodeId && imgCache[nodeId]) {
-    const img = document.createElement('img');
-    img.src = imgCache[nodeId];
-    img.dataset.node = nodeId;
-    img.alt = 'Carta';
-    wrap.appendChild(img);
-  } else {
-    const placeholder = document.createElement('div');
-    placeholder.className = isModal ? 'modal-img-placeholder' : 'card-img-placeholder';
-    placeholder.innerHTML = `<span>🐸</span><span>cargando...</span>`;
-    wrap.appendChild(placeholder);
-
-    if (nodeId) {
-      const img = document.createElement('img');
-      img.dataset.node = nodeId;
-      img.alt = 'Carta';
-      img.style.display = 'none';
-      wrap.appendChild(img);
-    }
-  }
+  const img = document.createElement('img');
+  img.src = getImgUrl(carta);
+  img.alt = carta.nombre;
+  img.loading = 'lazy';
+  img.onerror = function() {
+    this.style.display = 'none';
+    const ph = document.createElement('div');
+    ph.className = isModal ? 'modal-img-placeholder' : 'card-img-placeholder';
+    ph.innerHTML = `<span>${ELEM_ICON[carta.elemento] || '🐸'}</span><span>${carta.nombre}</span>`;
+    wrap.appendChild(ph);
+  };
+  wrap.appendChild(img);
 
   if (!isModal) {
     const bar = document.createElement('div');
@@ -124,9 +77,6 @@ function renderGrid() {
     return;
   }
 
-  const nodeIds = filtered.map(c => c.figma_node_id_url).filter(Boolean);
-  fetchFigmaImages(nodeIds);
-
   filtered.forEach((carta, i) => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -134,9 +84,8 @@ function renderGrid() {
     card.style.animationDelay = `${Math.min(i * 0.03, 0.5)}s`;
 
     const elemLabel = getElemLabel(carta);
-    const nodeId = carta.figma_node_id_url;
 
-    card.appendChild(getImgEl(nodeId));
+    card.appendChild(getImgEl(carta));
 
     const body = document.createElement('div');
     body.className = 'card-body';
@@ -161,9 +110,6 @@ function openModal(carta) {
   const overlay = document.getElementById('modal-overlay');
   const inner = document.getElementById('modal-inner');
   const elemLabel = getElemLabel(carta);
-  const nodeId = carta.figma_node_id_url;
-
-  if (nodeId) fetchFigmaImages([nodeId]);
 
   const habs = [];
   if (carta.hab1_nombre) habs.push({ n: carta.hab1_nombre, d: carta.hab1_desc });
@@ -172,14 +118,15 @@ function openModal(carta) {
   inner.innerHTML = '';
 
   const cssElem = (carta.elemento || carta.tipo || '').toLowerCase()
-    .replace('í','i').replace('é','e').replace('á','a').replace('ó','o').replace('ú','u');
+    .replace(/[íì]/g,'i').replace(/[éè]/g,'e').replace(/[áà]/g,'a')
+    .replace(/[óò]/g,'o').replace(/[úù]/g,'u');
 
   inner.style.setProperty('--c-elem', `var(--${cssElem}, var(--accent))`);
 
   const layout = document.createElement('div');
   layout.className = 'modal-layout';
 
-  layout.appendChild(getImgEl(nodeId, true));
+  layout.appendChild(getImgEl(carta, true));
 
   const info = document.createElement('div');
   info.className = 'modal-info';
@@ -233,11 +180,7 @@ async function init() {
 
   renderGrid();
 
-  // Prefetch primeras 30
-  const firstIds = allCartas.slice(0, 30).map(c => c.figma_node_id_url).filter(Boolean);
-  fetchFigmaImages(firstIds);
-
-  // Filtros tipo
+  // Filtros
   document.querySelectorAll('.pill').forEach(btn => {
     btn.addEventListener('click', () => {
       const filter = btn.dataset.filter;
